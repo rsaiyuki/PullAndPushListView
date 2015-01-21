@@ -52,7 +52,7 @@ import android.widget.Toast;
  * </ul>
  *
  * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2012-5-20
- * @author CHENDONG update by 2015-01-20
+ * @author rsaiyuki update by 2015-01-20
  */
 public class PullAndPushListView extends ListView implements OnScrollListener {
 
