@@ -1098,6 +1098,10 @@ public class PullAndPushListView extends ListView implements OnScrollListener {
         ta.recycle();
     }
 
+    /**
+     * 完成时调用
+     * @param size
+     */
     public void onComplete(int size) {
         if(size>=PAGE_SIZE){
             setHasMore(true);
